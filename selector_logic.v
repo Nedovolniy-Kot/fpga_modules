@@ -1,6 +1,6 @@
  module selector_logic_parametrised
 #(parameter in_size = 2,
-   parameter in_val = 4)
+    in_val = 4)
 (input [in_size * in_val - 1 : 0] in,
  input [in_val - 1 : 0] sel,
  output [in_size - 1 : 0] out
